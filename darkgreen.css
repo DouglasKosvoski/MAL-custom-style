@@ -1,0 +1,46 @@
+body {
+  color: gray !important;
+}
+span.text {
+  color: white !important;
+}
+td {
+  color: white !important;
+}
+img {
+  transition: transform .15s;
+}
+img:hover {
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px 0px black;
+  transform: scale(3.5);
+}
+div.list-status-title {
+  background-color: #222 !important;
+}
+.list-menu-float .icon-menu svg.icon {
+  position: absolute;
+  fill: FireBrick;
+}
+.list-menu-float:hover .icon-menu svg.icon {
+  position: absolute;
+  fill: FireBrick;
+}
+.link {
+  color: white !important;
+}
+.list-table .list-table-data .data a {
+  color: FireBrick !important;
+}
+.list-table .list-table-data .data a:hover {
+  color: red !important;
+}
+.status-button {
+  color: white !important;
+}
+.status-menu-container .status-menu .status-button:after {
+  background-color: FireBrick;
+}
+.list-table .list-table-data .data.status.reading, .list-table .list-table-data .data.status.watching {
+    background-color: LimeGreen;
+}
